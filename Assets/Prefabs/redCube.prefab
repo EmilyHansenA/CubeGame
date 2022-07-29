@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5778431405496239358}
   - component: {fileID: 5778431405496239354}
   - component: {fileID: -6231460263457649706}
+  - component: {fileID: 573590127136987449}
   m_Layer: 0
   m_Name: redCube
   m_TagString: redCube
@@ -28,10 +29,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5778431405496239357}
-  m_LocalRotation: {x: -0.000000019446631, y: 0.00002322204, z: -0.0000000053448996,
-    w: 1}
-  m_LocalPosition: {x: -0.0000014001123, y: 7.5, z: -0.0000011040393}
-  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fbd6ad01637c9d84698456d4937469ec, type: 2}
+  - {fileID: 2100000, guid: af21e81170097fc45b10dcf7f4e3a820, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,5 +126,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cf459e8778ff6c4cb32abcb367e28c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xRangeRight: 2.8
+  xRangeLeft: -2.8
+  yRangeUp: 15
+--- !u!114 &573590127136987449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5778431405496239357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de8f3a7207a9ee4893e21c9b9a5755e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
